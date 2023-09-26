@@ -8,7 +8,7 @@ public class Animal {
     protected int edad;
     protected String habitat;
     protected String genero;
-    protected Zona zona;
+    protected Zona zona = null;
 
     public Animal(String nombre, int edad, String habitat, String genero){
         this.nombre = nombre;
