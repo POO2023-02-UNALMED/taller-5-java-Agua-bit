@@ -24,7 +24,7 @@ public class Zona {
     public Zona() {
         this(null, null);
     }
-    
+
     public String getNombre(){
         return this.nombre;
     }
