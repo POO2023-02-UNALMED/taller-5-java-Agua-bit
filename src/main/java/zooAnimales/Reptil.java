@@ -14,7 +14,7 @@ class Reptil extends Animal {
         this.habitat = habitat;
         this.genero = genero;
         this.colorEscamas = colorEscamas;
-        this.largoCola = largoCola:
+        this.largoCola = largoCola;
         listado.add(this);
         totalAnimales++;
     }
