@@ -8,7 +8,7 @@ class Reptil extends Animal {
     private String colorEscamas;
     private int largoCola;
 
-    public class Mamifero(String nombre, int edad, String habitat, String genero, String colorEscamas, int largoCola) {
+    public class Reptil(String nombre, int edad, String habitat, String genero, String colorEscamas, int largoCola) {
         this.nombre = nombre;
         this.edad = edad;
         this.habitat = habitat;
