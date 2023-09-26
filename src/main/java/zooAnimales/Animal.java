@@ -26,7 +26,7 @@ public class Animal {
         return "Mamiferos : " + Mamifero.cantidadMamiferos() + "\n" + "Aves : " + Ave.cantidadAves() + "\n" + "Reptiles : " + Reptil.cantidadReptiles() + "\n" + "Peces : " + Pez.cantidadPeces() + "\n" + "Anfibios : " +Anfibio.cantidadAnfibios();
     }
 
-    public static String toString(){
+    public String toString(){
         if (this.zona == null){
             return "Mi nombre es " + this.nombre + ", tengo una edad de " + this.edad + ", habito en " + this.habitat + " y mi genero es " + this.genero;
         }
