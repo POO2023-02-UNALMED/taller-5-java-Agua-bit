@@ -51,4 +51,5 @@ class Reptil extends Animal {
     public int setLargoCola(int largoCola){
         this.largoCola = largoCola;
     }
+
 }
