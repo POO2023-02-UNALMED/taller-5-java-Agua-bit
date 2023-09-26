@@ -19,8 +19,8 @@ class Pez extends Animal {
         totalAnimales++;
     }
 
-    public class movimiento(){
-        return void;
+    public String movimiento(){
+        return "nadar";
     }
 
     public static int cantidadPeces(){

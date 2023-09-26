@@ -19,10 +19,6 @@ class Mamifero extends Animal {
         totalAnimales++;
     }
 
-    public class movimiento(){
-        return void;
-    }
-
     public static int cantidadMamiferos(){
         return listado.size();
     }

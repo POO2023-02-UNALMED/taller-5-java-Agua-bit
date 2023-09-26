@@ -17,8 +17,8 @@ class Ave extends Animal {
         totalAnimales++;
     }
 
-    public class String movimiento(){
-        return void;
+    public String movimiento(){
+        return "volar";
     }
 
     public static int cantidadAves(){

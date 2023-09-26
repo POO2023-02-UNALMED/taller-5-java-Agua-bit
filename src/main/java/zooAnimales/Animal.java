@@ -18,8 +18,8 @@ public class Animal {
         totalAnimales++;
     }
 
-    public class movimiento(){
-        return void;
+    public String movimiento(){
+        return "desplazarse";
     }
 
     public static String totalPorTipo(){

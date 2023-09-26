@@ -19,8 +19,8 @@ class Anfibio extends Animal {
         totalAnimales++;
     }
 
-    public class movimiento(){
-        return void;
+    public String movimiento(){
+        return "saltar";
     }
 
     public static int cantidadAnfibios(){
