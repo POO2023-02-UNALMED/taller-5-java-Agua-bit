@@ -18,6 +18,10 @@ public class Animal {
         totalAnimales++;
     }
 
+    public Animal() {
+        this("", 0, "", "");
+    }
+
     public String movimiento(){
         return "desplazarse";
     }
