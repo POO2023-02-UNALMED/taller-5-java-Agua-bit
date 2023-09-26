@@ -3,12 +3,12 @@ package zooAnimales;
 import gestion.Zona;
 
 public class Animal {
-    private static int totalAnimales;
-    private String nombre;
-    private int edad;
-    private String habitat;
-    private String genero;
-    private Zona zona;
+    protected static int totalAnimales;
+    protected String nombre;
+    protected int edad;
+    protected String habitat;
+    protected String genero;
+    protected Zona zona;
 
     public Animal(String nombre, int edad, String habitat, String genero){
         this.nombre = nombre;
