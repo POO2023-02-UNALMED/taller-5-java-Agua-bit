@@ -10,7 +10,7 @@ public class Animal {
     private String genero;
     private Zona zona;
 
-    public class Animal(String nombre, int edad, String habitat, String genero){
+    public Animal(String nombre, int edad, String habitat, String genero){
         this.nombre = nombre;
         this.edad = edad;
         this.habitat = habitat;

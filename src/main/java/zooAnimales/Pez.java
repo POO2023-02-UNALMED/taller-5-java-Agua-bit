@@ -8,7 +8,7 @@ class Pez extends Animal {
     private String colorEscamas;
     private int cantidadAletas;
 
-    public class Pez(String nombre, int edad, String habitat, String genero, String colorEscamas, int cantidadAletas){
+    public Pez(String nombre, int edad, String habitat, String genero, String colorEscamas, int cantidadAletas){
         this.nombre = nombre;
         this.edad = edad;
         this.habitat = habitat;
