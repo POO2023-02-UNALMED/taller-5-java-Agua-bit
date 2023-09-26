@@ -8,7 +8,7 @@ class Mamifero extends Animal {
     private boolean pelaje;
     private int patas;
 
-    public class Mamifero(String nombre, int edad, String habitat, String genero, boolean pelaje, int patas) {
+    public class Mamifero(String nombre, int edad, String habitat, String genero, boolean pelaje, int patas){
         this.nombre = nombre;
         this.edad = edad;
         this.habitat = habitat;
@@ -37,19 +37,19 @@ class Mamifero extends Animal {
         return leon = new Mamifero(nombre, edad, "selva", genero, True, 4);
     }
 
-    public boolean isPelaje() {
+    public boolean isPelaje(){
         return pelaje;
     }
 
-    public void setPelaje(boolean pelaje) {
+    public void setPelaje(boolean pelaje){
         this.pelaje = pelaje;
     }
 
-    public int getPatas() {
+    public int getPatas(){
         return patas;
     }
 
-    public void setPatas(int patas) {
+    public void setPatas(int patas){
         this.patas = patas;
     }
 }

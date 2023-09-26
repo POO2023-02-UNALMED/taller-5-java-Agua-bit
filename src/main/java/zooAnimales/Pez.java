@@ -8,7 +8,7 @@ class Pez extends Animal {
     private String colorEscamas;
     private int cantidadAletas;
 
-    public class Pez(String nombre, int edad, String habitat, String genero, String colorEscamas, int cantidadAletas) {
+    public class Pez(String nombre, int edad, String habitat, String genero, String colorEscamas, int cantidadAletas){
         this.nombre = nombre;
         this.edad = edad;
         this.habitat = habitat;
@@ -37,19 +37,19 @@ class Pez extends Animal {
         return bacalao = new Pez(nombre, edad, "oceano", genero, "gris", 6);
     }
 
-    public String getColorEscamas() {
+    public String getColorEscamas(){
         return colorEscamas;
     }
 
-    public void setColorEscamas(String colorEscamas) {
+    public void setColorEscamas(String colorEscamas){
         this.colorEscamas = colorEscamas;
     }
 
-    public int getCantidadAletas() {
+    public int getCantidadAletas(){
         return cantidadAletas;
     }
 
-    public void setCantidadAletas(int cantidadAletas) {
+    public void setCantidadAletas(int cantidadAletas){
         this.cantidadAletas = cantidadAletas;
     }
 }

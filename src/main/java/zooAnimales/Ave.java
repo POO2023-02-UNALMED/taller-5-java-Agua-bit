@@ -7,7 +7,7 @@ class Ave extends Animal {
     public static int aguilas = 0;
     private String colorPlumas;
 
-    public class Ave(String nombre, int edad, String habitat, String genero, String colorPlumas) {
+    public class Ave(String nombre, int edad, String habitat, String genero, String colorPlumas){
         this.nombre = nombre;
         this.edad = edad;
         this.habitat = habitat;
@@ -35,11 +35,11 @@ class Ave extends Animal {
         return aguila = new Ave(nombre, edad, "montanas", genero, "blanco y amarillo");
     }
 
-    public String getColorPlumas() {
+    public String getColorPlumas(){
         return colorPlumas;
     }
 
-    public void setColorPlumas(String colorPlumas) {
+    public void setColorPlumas(String colorPlumas){
         this.colorPlumas = colorPlumas;
     }
 }

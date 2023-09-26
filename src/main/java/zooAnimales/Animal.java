@@ -2,7 +2,7 @@ package zooAnimales;
 
 import gestion.Zona;
 
-class Animal {
+public class Animal {
     private static int totalAnimales;
     private String nombre;
     private int edad;
@@ -22,11 +22,11 @@ class Animal {
         return void;
     }
 
-    public static String totalPorTipo() {
+    public static String totalPorTipo(){
         return "Mamiferos : " + Mamifero.cantidadMamiferos() + "\n" + "Aves : " + Ave.cantidadAves() + "\n" + "Reptiles : " + Reptil.cantidadReptiles() + "\n" + "Peces : " + Pez.cantidadPeces() + "\n" + "Anfibios : " +Anfibio.cantidadAnfibios();
     }
 
-    public static toString() {
+    public static toString(){
         if (this.zona == null){
             return "Mi nombre es " + this.nombre + ", tengo una edad de " + this.edad + ", habito en " + this.habitat + " y mi genero es " + this.genero
         }
@@ -35,43 +35,43 @@ class Animal {
         }
     }
 
-    public String getNombre() {
+    public String getNombre(){
         return this.nombre;
     }
 
-    public void setNombre(String nombre) {
+    public void setNombre(String nombre){
         this.nombre = nombre;
     }
 
-    public int getEdad() {
+    public int getEdad(){
         return this.edad;
     }
 
-    public void setEdad(int edad) {
+    public void setEdad(int edad){
         this.edad = edad;
     }
 
-    public String getHabitat() {
+    public String getHabitat(){
         return this.habitat;
     }
 
-    public void setHabitat(String habitat) {
+    public void setHabitat(String habitat){
         this.habitat = habitat;
     }
 
-    public String getGenero() {
+    public String getGenero(){
         return this.genero;
     }
 
-    public void setGenero(String genero) {
+    public void setGenero(String genero){
         this.genero = genero;
     }
 
-    public static int getTotalAnimales() {
+    public static int getTotalAnimales(){
         return totalAnimales;
     }
 
-    public static void setTotalAnimales(int to) {
+    public static void setTotalAnimales(int to){
         totalAnimales = to;
     }
 }

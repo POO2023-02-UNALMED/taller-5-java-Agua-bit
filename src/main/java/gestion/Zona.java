@@ -8,12 +8,12 @@ public class Zona {
     private Zoologico zoo;
     public ArrayList<Animal> animales = new ArrayList<Animal>();
 
-    public Zona(String nombre, Zoologico zoo) {
+    public Zona(String nombre, Zoologico zoo){
         this.nombre;
         this.zoo;
     }
 
-    public void agregarAnimales(Animal animal) {
+    public void agregarAnimales(Animal animal){
         animales.add(animal);
     }
 
@@ -21,27 +21,27 @@ public class Zona {
         return this.animales.size();
     }
 
-    public String getNombre() {
+    public String getNombre(){
         return this.nombre;
     }
 
-    public void setNombre(String nombre) {
+    public void setNombre(String nombre){
         this.nombre = nombre;
     }
 
-    public Zoologico getZoo() {
+    public Zoologico getZoo(){
         return this.zoo;
     }
 
-    public void setZoo(Zoologico zoo) {
+    public void setZoo(Zoologico zoo){
         this.zoo = zoo;
     }
 
-    public ArrayList<Animal> getAnimales() {
+    public ArrayList<Animal> getAnimales(){
         return this.animales;
     }
 
-    public void setAnimales(ArrayList<Animal> animales) {
+    public void setAnimales(ArrayList<Animal> animales){
         this.animales = animales;
     }
 }
