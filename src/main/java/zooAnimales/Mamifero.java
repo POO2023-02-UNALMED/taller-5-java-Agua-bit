@@ -1,7 +1,7 @@
 package zooAnimales;
 
 import java.util.ArrayList;
-class Mamifero extends Animal {
+public class Mamifero extends Animal {
     private static ArrayList<Mamifero> listado = new ArrayList<Mamifero>();
     public static int caballos = 0;
     public static int leones = 0;
