@@ -21,6 +21,10 @@ public class Zona {
         return this.animales.size();
     }
 
+    public Zona() {
+        this(null, null);
+    }
+    
     public String getNombre(){
         return this.nombre;
     }
