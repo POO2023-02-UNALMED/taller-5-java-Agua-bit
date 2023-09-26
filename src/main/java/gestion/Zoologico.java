@@ -16,11 +16,11 @@ public class Zoologico {
         this.zonas.add(zona);
     }
 
-    public static ArrayList<Zona> getZona() {
+    public ArrayList<Zona> getZona() {
         return this.zonas;
     }
 
-    public static void setZonas(ArrayList<Zona> zonas) {
+    public void setZonas(ArrayList<Zona> zonas) {
         this.zonas = zonas;
     }
 
