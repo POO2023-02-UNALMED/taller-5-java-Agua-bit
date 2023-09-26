@@ -49,4 +49,8 @@ public class Mamifero extends Animal {
     public void setPatas(int patas){
         this.patas = patas;
     }
+
+    public Mamifero() {
+        this("", 0, "", "", false, 0);
+    }
 }

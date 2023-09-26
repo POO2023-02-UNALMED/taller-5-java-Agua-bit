@@ -52,4 +52,8 @@ public class Pez extends Animal {
     public void setCantidadAletas(int cantidadAletas){
         this.cantidadAletas = cantidadAletas;
     }
+
+    public Pez() {
+        this("", 0, "", "", "", 0);
+    }
 }

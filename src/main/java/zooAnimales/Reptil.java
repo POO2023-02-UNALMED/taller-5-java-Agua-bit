@@ -52,4 +52,8 @@ public class Reptil extends Animal {
         this.largoCola = largoCola;
     }
 
+    public Reptil() {
+        this("", 0, "", "", "", 0);
+    }
+
 }
